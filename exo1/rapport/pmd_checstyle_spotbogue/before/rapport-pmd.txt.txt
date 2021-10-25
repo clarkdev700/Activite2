@@ -1,0 +1,3 @@
+C:\Miage306\devoir_2\exo1\Calcul.java:1:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+C:\Miage306\devoir_2\exo1\Calcul.java:1:	UseUtilityClass:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+C:\Miage306\devoir_2\exo1\Calcul.java:1:	ClassNamingConventions:	The utility class name 'Calcul' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper|Constants)'

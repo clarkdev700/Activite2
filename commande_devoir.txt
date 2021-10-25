@@ -1,0 +1,26 @@
+javac -d target src/Calcul.java
+javac -d target -classpath target;junit-platform-console-standalone-1.8.0-RC1.jar src/CalculTest.java
+
+java -jar checkstyle-9.0-all.jar -c sun_checks.xml src/Calcul.java -o rapport-checkstyle.txt
+pmd.bat -d src/Calcul.java -f text -R rulesets/java/quickstart.xml -r rapport-pmd.txt.txt
+java -jar %SPOTBUGS_HOME%\lib\spotbugs.jar -html -output rapport_spotbugs.html target/mypackage/Calcul.class
+
+
+java -jar checkstyle-9.0-all.jar -c sun_checks.xml src/CalculTest.java -o test-rapport-checkstyle.txt 
+pmd.bat -d src/CalculTest.java -f text -R rulesets/java/quickstart.xml -r test-rapport-pmd.txt 
+java -jar %SPOTBUGS_HOME%\lib\spotbugs.jar -html -output test-rapport-spotbugs.html target/mypackage/CalculTest.class -auxclasspath target/mypackage/Calcul.class junit/*
+
+----Execution du  test
+java  -javaagent:jacoco/lib/jacocoagent.jar -jar junit-platform-console-standalone-1.8.0-RC1.jar --scan-classpath -classpath target
+ --- generation de rapport format html
+ java -jar jacoco/lib/jacococli.jar report jacoco.exec --classfiles target --html rapport --sourcefiles src
+ 
+--- Couverture de code
+java -javaagent:jacoco/lib/jacocoagent.jar -classpath out CalculTest
+--- generation de rapport
+java -jar jacoco/lib/jacococli.jar  report jacoco.exec --classfiles out --html rapport --sourcefiles src/CalculTest.Java
+
+Question 4
+Il n'ya pas de test ecrite pour la function maFonction
+le test division ne couvre pas toutes les branches
+

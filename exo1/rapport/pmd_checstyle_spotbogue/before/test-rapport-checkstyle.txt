@@ -1,0 +1,15 @@
+Début de la vérification...
+[ERROR] C:\Miage306\devoir_2\exo1\CalculTest.java:1: Il manque un caractère NewLine à la fin du fichier. [NewlineAtEndOfFile]
+[ERROR] C:\Miage306\devoir_2\exo1\CalculTest.java:1: Le fichier package-info.java est manquant. [JavadocPackage]
+[ERROR] C:\Miage306\devoir_2\exo1\CalculTest.java:5:2: Commentaire Javadoc manquant. [MissingJavadocMethod]
+[ERROR] C:\Miage306\devoir_2\exo1\CalculTest.java:9:2: Commentaire Javadoc manquant. [MissingJavadocMethod]
+[ERROR] C:\Miage306\devoir_2\exo1\CalculTest.java:11:16: '5' devrait être défini comme une constante. [MagicNumber]
+[ERROR] C:\Miage306\devoir_2\exo1\CalculTest.java:11:17: Il manque une espace après ','. [WhitespaceAfter]
+[ERROR] C:\Miage306\devoir_2\exo1\CalculTest.java:11:32: Il manque une espace après ','. [WhitespaceAfter]
+[ERROR] C:\Miage306\devoir_2\exo1\CalculTest.java:11:33: '3' devrait être défini comme une constante. [MagicNumber]
+[ERROR] C:\Miage306\devoir_2\exo1\CalculTest.java:13:2: Commentaire Javadoc manquant. [MissingJavadocMethod]
+[ERROR] C:\Miage306\devoir_2\exo1\CalculTest.java:15:16: '4' devrait être défini comme une constante. [MagicNumber]
+[ERROR] C:\Miage306\devoir_2\exo1\CalculTest.java:15:17: Il manque une espace après ','. [WhitespaceAfter]
+[ERROR] C:\Miage306\devoir_2\exo1\CalculTest.java:15:34: '8' devrait être défini comme une constante. [MagicNumber]
+[ERROR] C:\Miage306\devoir_2\exo1\CalculTest.java:15:35: Il manque une espace après ','. [WhitespaceAfter]
+Vérification terminée.

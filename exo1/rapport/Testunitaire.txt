@@ -1,0 +1,50 @@
+--- Test unitatire 1
+←[36m.←[0m
+←[36m+--←[0m ←[36mJUnit Jupiter←[0m ←[32m[OK]←[0m
+←[36m| '--←[0m ←[36mCalculTest←[0m ←[32m[OK]←[0m
+←[36m|   +--←[0m ←[34mtestSomme()←[0m ←[32m[OK]←[0m
+←[36m|   +--←[0m ←[34mtestConstructeur()←[0m ←[32m[OK]←[0m
+←[36m|   '--←[0m ←[34mtestDivision()←[0m ←[32m[OK]←[0m
+←[36m'--←[0m ←[36mJUnit Vintage←[0m ←[32m[OK]←[0m
+
+Test run finished after 750 ms
+[         3 containers found      ]
+[         0 containers skipped    ]
+[         3 containers started    ]
+[         0 containers aborted    ]
+[         3 containers successful ]
+[         0 containers failed     ]
+[         3 tests found           ]
+[         0 tests skipped         ]
+[         3 tests started         ]
+[         0 tests aborted         ]
+[         3 tests successful      ]
+[         0 tests failed          ]
+
+
+
+--- Test unitatire 2
+←[36m.←[0m
+←[36m+--←[0m ←[36mJUnit Jupiter←[0m ←[32m[OK]←[0m
+←[36m| '--←[0m ←[36mCalculTest←[0m ←[32m[OK]←[0m
+←[36m|   +--←[0m ←[34mtestMaFonctionAvecBSuperieurADix()←[0m ←[32m[OK]←[0m
+←[36m|   +--←[0m ←[34mtestSomme()←[0m ←[32m[OK]←[0m
+←[36m|   +--←[0m ←[34mtestConstructeur()←[0m ←[32m[OK]←[0m
+←[36m|   +--←[0m ←[34mtestDivisionParZero()←[0m ←[32m[OK]←[0m
+←[36m|   +--←[0m ←[34mtestDivision()←[0m ←[32m[OK]←[0m
+←[36m|   '--←[0m ←[34mtestMaFonctionAvecBInferieurADix()←[0m ←[32m[OK]←[0m
+←[36m'--←[0m ←[36mJUnit Vintage←[0m ←[32m[OK]←[0m
+
+Test run finished after 744 ms
+[         3 containers found      ]
+[         0 containers skipped    ]
+[         3 containers started    ]
+[         0 containers aborted    ]
+[         3 containers successful ]
+[         0 containers failed     ]
+[         6 tests found           ]
+[         0 tests skipped         ]
+[         6 tests started         ]
+[         0 tests aborted         ]
+[         6 tests successful      ]
+[         0 tests failed          ]
